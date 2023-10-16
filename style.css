@@ -3,8 +3,13 @@ body{
     font-family: 'Chivo', sans-serif !important;
 }
 
-
-
+nav img{
+  width: 75px;
+  height: 75px;
+}
+header{
+  background-image: url(imagens/pexels-omar-ramadan-6632429.jpg)
+}
 .item{
   height: 368px;
   width: 288px;
