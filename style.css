@@ -1,6 +1,12 @@
+html{
+  scroll-behavior:smooth;
+  position: relative;
+}
+
+
 body{
-  
     font-family: 'Chivo', sans-serif !important;
+    height: 100%;
 }
 
 nav img{
@@ -8,7 +14,14 @@ nav img{
   height: 75px;
 }
 header{
-  background-image: url(imagens/pexels-omar-ramadan-6632429.jpg)
+  background-attachment: fixed;
+  background-size:cover;
+  background-image: url(imagens/pexels-alexander-grey-1148998.jpg)
+  
+}
+
+.Navbar{
+  margin-left: 20px;
 }
 .item{
   height: 368px;
@@ -18,7 +31,6 @@ header{
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #B7FD97;
   margin: 60px;
 }
 .item h4{
@@ -31,31 +43,22 @@ header{
     flex-wrap:wrap ;
 }
 
-
-#verde{
-  background-color: #B7FD97;
-}
-
-
 .tudo-objetivo{
-  padding: 8%;
+  width: 100%;
 }
 
-.objetivo{
-  margin-bottom: 7.5%;
-}
 
 .tudo-principal{
-  display: flex;
+  padding: 30px;
+  display: flex;    
   flex-direction: row;
-  background-color: #B7FD97;
+  background-color: orange;
 }
 .texto-principal{
   display: flex;
   flex-direction: column;
   padding:2.50%;
-  margin-left:5% ;
-  margin-top: 5%;
+  margin-top: 2.50%;
 }
 
 
@@ -70,8 +73,8 @@ header{
   border-radius: 1rem;
   width: 40%;
   height:2.50rem ;
-  background-color: #0d6efd;
-  color: white;
+  background-color: white;
+  color: black;
   border: none;
 }
 
