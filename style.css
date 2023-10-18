@@ -9,6 +9,7 @@ body{
     height: 100%;
 }
 
+
 nav img{
   width: 75px;
   height: 75px;
@@ -61,7 +62,31 @@ header{
   margin-top: 2.50%;
 }
 
+.nav-item1{
+background-color: white;
+border-radius: 20px;
+padding: 5px;
+}
+.nav-item2{
 
+  border-radius: 20px;
+  padding: 5px;
+  }
+  .nav-item3{
+   
+    border-radius: 20px;
+    padding: 5px;
+    }
+    .nav-item4{
+  
+      border-radius: 20px;
+      padding: 5px;
+      }
+      .nav-item5{
+    
+        border-radius: 20px;
+        padding: 5px;
+        }
 
 .tudo-principal img{
   width: 50%;
