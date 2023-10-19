@@ -18,7 +18,6 @@ header{
   background-attachment: fixed;
   background-size:cover;
   background-image: url(imagens/pexels-alexander-grey-1148998.jpg)
-  
 }
 
 .Navbar{
@@ -116,5 +115,10 @@ input{
 
 
 #enviar{
-  margin-bottom: 170px;
+  margin-bottom: 90px;
 }
+
+.formsentreemcontato{
+padding: 40px;
+}
+
