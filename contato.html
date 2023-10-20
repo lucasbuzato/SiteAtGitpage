@@ -9,58 +9,76 @@
     <title>Document</title>
 </head>
 <body>
-  <nav class=" d-flex flex-wrap justify-content-center align-items-center bg-info">
+  <nav class=" d-flex flex-wrap justify-content-center align-items-center border-bottom">
     <a class="d-flex align-items-center mb-3 mb-md-0 me-md-auto">
       <img src="imagens/logo-search-grid-1x.ico" class="d-inline-block align-top" alt="">
-    
-          <ul class="nav">
-            <li class="nav-item"><a href="home.html" class="nav-link" aria-current="page">Home</a></li>
-            <li class="nav-item"><a href="projetos.html" class="nav-link">projetos</a></li>
-            <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre</a></li>
-            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Contato</a></li>
-            <li class="nav-item"><a href="login.html" class="nav-link">login</a></li>
-          </ul>
-        </nav>
+
+    </a>
+
+    <ul class="nav ">
+      <li class="nav-item"><a href="index.html" class="nav-link" aria-current="page">Home</a></li>
+      <li class="nav-item"><a href="projetos.html" class="nav-link">projetos</a></li>
+      <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+      <li class="nav-item"><a href="login.html" class="nav-link active">login</a></li>
+    </ul>
+</nav>
+
     <main>
+      <div class=" contatos">
+<div class="text-center fw-bold">
+  <h1>Entre em contato conosco </h1>
+  <h5>Nos de sugestões e criticas e comentarios sobre nossos projetos </h5>
+</div>
 
-        <div class="formsentreemcontato">
-           
-            <div class="mb-3">
-                <h3>Entre em contato conosco</h3>
-                <p>Para fazer sugestões ou tirar duvidas entre em contato conosco</p>
 
-                <label for="exampleFormControlInput1" class="form-label ">Adicione seu e-mail</label>
-                <input type="email" class="form-control  w-25 bg-secondary" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label ">Adicione seu Nome</label>
-                <input type="email" class="form-control  w-25 bg-secondary" id="exampleFormControlInput1" placeholder="Carlos Bandeira">
-            </div>
-
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Escreva para Nós</label>
-                <textarea class="form-control w-50 bg-secondary" id="exampleFormControlTextarea1" rows="3" placeholder="Coloque seu comentario ou sugestão aqui"></textarea>
-            </div>
-            <form id="enviar">
-              <input type="submit" value="Enviar" >
-          </form>
+<div class="d-flex flex-column  ">
+    <div class="d-flex flex-row justify-content-center " >
+        <div class="p-4">
+          <h6 >Nome Completo:</h6>
+          <input type="name" id="password-login" class="form-control m-2 rounded-pill border border-dark">
+          <h6 >E-mail:</h6>
+          <input type="email" id="password-login" class="form-control m-2 rounded-pill border border-dark">
         </div>
-    </div>
+
+        <div class="p-4">
+          <h6 >Telefone:</h6>
+          <input type="text" id="password-login" class="form-control m-2 rounded-pill border border-dark">
+          <h6 >Assunto:</h6>
+          <input type="text" id="password-login" class="form-control m-2 rounded-pill border border-dark">
+        </div>
+      </div>
+        <div class="mensagem">
+          <h6 >Mensagem:</h6>
+          <textarea class="form-control border border-dark"name="" id="" cols="59" rows="5"></textarea>
+          <button type="button">Enviar</button>
+        </div>
+</div>
+
+</div>
+
+
     </main>
 
+        
+    <footer class="d-flex flex-row justify-content-around align-items-center border-top ml-1">
+    
+      <ul class="nav flex-column">
+        <h6>Paginas</h6>
+        <li class="nav-item"><a href="#" class="text-body-secondary">Home</a></li>
+        <li class="nav-item"><a href="#" class="text-body-secondary">projetos</a></li>
+        <li class="nav-item"><a href="#" class="text-body-secondary">sobre </a></li>
+        <li class="nav-item"><a href="#" class="text-body-secondary">contato</a></li>
 
+      </ul>
+      <ul class="nav flex-column">
+        <h6>Participantes</h6>
+        <li class="nav-item"><a href="#" class="text-body-secondary">Lucas Buzato</a></li>
+        <li class="nav-item"><a href="#" class="text-body-secondary">Pedro Gomes</a></li>
+        <li class="nav-item"><a href="#" class="text-body-secondary">Leticia Villegas </a></li>
 
-
-
-    <footer class="d-flex flex-wrap justify-content-between align-items-center border-top">
-        <p class="col-md-4 mb-0 text-body-secondary">© 2023 Company, Inc</p>
-
-        <ul class="nav col-md-4 justify-content-end">
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">projetos</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">sobre </a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">contato</a></li>
-        </ul>
-      </footer>
+      </ul>
+      <p class=" text-body-secondary">© 2023 Company, Inc</p>
+    </footer>
 </body>
 </html>
